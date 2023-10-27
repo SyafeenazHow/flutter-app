@@ -126,14 +126,12 @@ b{
 /*Sidebar-Menu*/
  .sidebar-panel {
     background: var(--color-background);
-    position: absolute;
-    inset: auto 0 0;
-    height: 100vh;
-    height: 100svh;
-
+    height: auto;  
+    
 }
 aside .d-flex{
-    border:0.2rem;   
+    border:0.2rem; 
+    height: auto;    
 }
 
 aside .sidebar:hover{
@@ -180,6 +178,7 @@ aside .sidebar{
     flex-direction: column;
     justify-content: space-between;
     position: absolute;
+    height: auto;    
     
     background-color: var(--color-white);
     box-shadow: var(--box-shadow);

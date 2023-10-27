@@ -24,8 +24,7 @@ class _HomeScreenState extends State<HomeScreen> {
             onWebViewCreated: (controller) {
               this.controller = controller;
                          
-             }, 
-            
+             },             
           )
         )
       ),
